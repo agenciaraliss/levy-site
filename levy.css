@@ -3,6 +3,7 @@
 @font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-Bd.woff2) format('woff2');font-weight:700;font-display:swap}
 @font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-XBd.woff2) format('woff2');font-weight:800;font-display:swap}
 @font-face{font-family:'Lemon Milk Pro';src:url(Lemon-Milk-Pro-Bold.woff2) format('woff2');font-weight:700;font-display:swap}
-html:not(.lv-ok) header.js-head-main,html:not(.lv-ok) footer.js-footer{visibility:hidden;animation:lvfb 0s 5s forwards}
-@keyframes lvfb{to{visibility:visible}}
+html:not(.lv-ok) body{opacity:0;animation:lvfb .3s 3s forwards}
+html.lv-ok body{opacity:1;transition:opacity .25s ease}
+@keyframes lvfb{to{opacity:1}}
 body{font-family:'Publica Sans Round',sans-serif}
