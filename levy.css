@@ -1,0 +1,8 @@
+@font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-Rg.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-Md.woff2) format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-Bd.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Publica Sans Round';src:url(PublicaSansRound-XBd.woff2) format('woff2');font-weight:800;font-display:swap}
+@font-face{font-family:'Lemon Milk Pro';src:url(Lemon-Milk-Pro-Bold.woff2) format('woff2');font-weight:700;font-display:swap}
+html:not(.lv-ok) header.js-head-main,html:not(.lv-ok) footer.js-footer{visibility:hidden;animation:lvfb 0s 5s forwards}
+@keyframes lvfb{to{visibility:visible}}
+body{font-family:'Publica Sans Round',sans-serif}
